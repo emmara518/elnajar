@@ -1,0 +1,77 @@
+@layer base {
+  :root {
+    --color-primary: #2563eb;
+    --color-primary-foreground: #ffffff;
+    --color-secondary: #7c3aed;
+    --color-secondary-foreground: #ffffff;
+    --color-accent: #d97706;
+    --color-accent-foreground: #ffffff;
+    --color-success: #059669;
+    --color-success-foreground: #ffffff;
+    --color-warning: #d97706;
+    --color-warning-foreground: #ffffff;
+    --color-danger: #dc2626;
+    --color-danger-foreground: #ffffff;
+    --color-info: #0284c7;
+    --color-info-foreground: #ffffff;
+    --color-surface: #ffffff;
+    --color-background: #f9fafb;
+    --color-foreground: #111827;
+    --color-muted: #6b7280;
+    --color-muted-foreground: #9ca3af;
+    --color-border: #e5e7eb;
+    --color-outline: #d1d5db;
+    --color-disabled: #9ca3af;
+    --color-overlay: rgba(0, 0, 0, 0.5);
+  }
+
+  .dark {
+    --color-primary: #60a5fa;
+    --color-primary-foreground: #ffffff;
+    --color-secondary: #a78bfa;
+    --color-secondary-foreground: #ffffff;
+    --color-accent: #fbbf24;
+    --color-accent-foreground: #111827;
+    --color-success: #34d399;
+    --color-success-foreground: #111827;
+    --color-warning: #fbbf24;
+    --color-warning-foreground: #111827;
+    --color-danger: #f87171;
+    --color-danger-foreground: #ffffff;
+    --color-info: #38bdf8;
+    --color-info-foreground: #ffffff;
+    --color-surface: #1f2937;
+    --color-background: #111827;
+    --color-foreground: #f9fafb;
+    --color-muted: #9ca3af;
+    --color-muted-foreground: #6b7280;
+    --color-border: #374151;
+    --color-outline: #4b5563;
+    --color-disabled: #6b7280;
+    --color-overlay: rgba(0, 0, 0, 0.7);
+  }
+
+  @media (prefers-contrast: more) {
+    :root {
+      --color-primary: #1d4ed8;
+      --color-primary-foreground: #ffffff;
+      --color-secondary: #6d28d9;
+      --color-secondary-foreground: #ffffff;
+      --color-accent: #b45309;
+      --color-accent-foreground: #ffffff;
+      --color-success: #047857;
+      --color-success-foreground: #ffffff;
+      --color-warning: #b45309;
+      --color-warning-foreground: #ffffff;
+      --color-danger: #b91c1c;
+      --color-danger-foreground: #ffffff;
+      --color-info: #0369a1;
+      --color-info-foreground: #ffffff;
+      --color-muted: #4b5563;
+      --color-muted-foreground: #6b7280;
+      --color-border: #9ca3af;
+      --color-outline: #6b7280;
+      --color-disabled: #6b7280;
+    }
+  }
+}
