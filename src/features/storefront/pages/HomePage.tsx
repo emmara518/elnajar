@@ -32,7 +32,7 @@ function mockProduct(overrides: Partial<Product> & { id: string }): Product {
     description: 'وصف المنتج التجريبي',
     shortDescription: 'وصف قصير للمنتج',
     price: { amount: 199, currency: 'SAR', oldAmount: 249 },
-    images: [{ id: `img-${overrides.id}`, url: '/images/product-placeholder.jpg', alt: 'منتج', width: 500, height: 500, isPrimary: true }],
+    images: [{ id: `img-${overrides.id}`, url: '/images/paper-cups-12oz.svg', alt: 'منتج', width: 500, height: 500, isPrimary: true }],
     categoryId: 'cat-1',
     categoryName: 'إلكترونيات',
     brand: 'براند',
@@ -208,7 +208,7 @@ export function HomePage() {
                   <Link to={getProductUrl(product.slug)} className="group block">
                     <Card className="overflow-hidden transition-shadow hover:shadow-lg h-full">
                       <div className="relative aspect-square bg-gray-100 overflow-hidden">
-                        <img src="/images/product-placeholder.jpg" alt={product.name} className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300" loading="lazy" />
+                        <img src="/images/paper-cups-12oz.svg" alt={product.name} className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300" loading="lazy" />
                         {product.isNew && <Badge variant="success" className="absolute top-2 right-2">جديد</Badge>}
                         {product.discount > 0 && <Badge variant="danger" className="absolute top-2 left-2">-{product.discount}%</Badge>}
                       </div>

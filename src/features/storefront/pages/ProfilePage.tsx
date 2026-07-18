@@ -144,7 +144,7 @@ function mockProduct(overrides: Partial<Product> & { id: string }): Product {
     images: [
       {
         id: `img-${overrides.id}`,
-        url: '/images/product-placeholder.jpg',
+        url: '/images/paper-plates.svg',
         alt: 'منتج',
         width: 500,
         height: 500,

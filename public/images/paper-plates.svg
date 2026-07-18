@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 800">
+  <rect width="800" height="800" fill="#f3f4f6"/>
+  <defs>
+    <linearGradient id="plateGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#ffffff;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#f3f4f6;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  <g transform="translate(150, 140)">
+    <ellipse cx="250" cy="350" rx="230" ry="40" fill="#d1d5db" opacity="0.2"/>
+    <ellipse cx="250" cy="280" rx="230" ry="50" fill="url(#plateGrad)" stroke="#d1d5db" stroke-width="2"/>
+    <ellipse cx="250" cy="270" rx="200" ry="42" fill="#ffffff" stroke="#e5e7eb" stroke-width="1.5"/>
+    <ellipse cx="250" cy="260" rx="170" ry="35" fill="#f9fafb" stroke="#e5e7eb" stroke-width="1"/>
+    <ellipse cx="250" cy="250" rx="130" ry="28" fill="#ffffff"/>
+    <path d="M120 240 Q250 230 380 240" fill="none" stroke="#e5e7eb" stroke-width="0.5" opacity="0.5"/>
+    <path d="M100 255 Q250 245 400 255" fill="none" stroke="#e5e7eb" stroke-width="0.5" opacity="0.5"/>
+    <ellipse cx="250" cy="200" rx="220" ry="45" fill="url(#plateGrad)" stroke="#d1d5db" stroke-width="2"/>
+    <ellipse cx="250" cy="190" rx="190" ry="38" fill="#ffffff" stroke="#e5e7eb" stroke-width="1.5"/>
+    <ellipse cx="250" cy="180" rx="160" ry="32" fill="#f9fafb" stroke="#e5e7eb" stroke-width="1"/>
+    <ellipse cx="250" cy="170" rx="120" ry="25" fill="#ffffff"/>
+    <ellipse cx="250" cy="140" rx="210" ry="42" fill="url(#plateGrad)" stroke="#d1d5db" stroke-width="2"/>
+    <ellipse cx="250" cy="130" rx="180" ry="35" fill="#ffffff" stroke="#e5e7eb" stroke-width="1.5"/>
+    <ellipse cx="250" cy="120" rx="145" ry="28" fill="#f9fafb" stroke="#e5e7eb" stroke-width="1"/>
+    <ellipse cx="250" cy="110" rx="110" ry="22" fill="#ffffff"/>
+  </g>
+  <text x="400" y="700" text-anchor="middle" font-family="Arial, sans-serif" font-size="36" fill="#374151" font-weight="bold" direction="rtl">أطباق ورقية</text>
+</svg>

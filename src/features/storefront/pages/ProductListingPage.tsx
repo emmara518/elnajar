@@ -11,7 +11,7 @@ function mockProduct(overrides: Partial<Product> & { id: string }): Product {
   return {
     sku: `SKU-${overrides.id}`, name: 'منتج', slug: `product-${overrides.id}`, description: 'وصف', shortDescription: 'وصف قصير',
     price: { amount: 199, currency: 'SAR', oldAmount: 249 },
-    images: [{ id: `img-${overrides.id}`, url: '/images/product-placeholder.jpg', alt: 'منتج', width: 500, height: 500, isPrimary: true }],
+    images: [{ id: `img-${overrides.id}`, url: '/images/paper-cups-12oz.svg', alt: 'منتج', width: 500, height: 500, isPrimary: true }],
     categoryId: 'cat-1', categoryName: 'إلكترونيات', brand: 'براند', rating: 4.5, reviewsCount: 25, reviews: [], variants: [],
     status: 'active', stockStatus: 'in_stock', stock: 50, tags: [], isNew: false, isFeatured: false, isBestSeller: false, discount: 0,
     createdAt: new Date().toISOString(), updatedAt: new Date().toISOString(), ...overrides,
